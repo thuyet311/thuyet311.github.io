@@ -1,0 +1,76 @@
+body {
+    font-family: 'Mulish', sans-serif;
+
+}
+ul {
+    list-style-type: none;
+}
+.gradient-text {
+    font-size: 2rem;
+    background: linear-gradient(-90deg,green, #00bcd4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+ul li a:hover {
+    background: linear-gradient(-90deg,green, #00bcd4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.logo {
+    max-width: 90%;
+    margin-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+.side-menu ul li ul {
+    
+}
+.active {
+    font-weight: 800;
+    background: linear-gradient(-90deg,green, #00bcd4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+.products img {
+    width: 100%;
+    
+    margin: 0.5rem;
+}
+.products img:hover {
+    transform: scale(1.1);
+}
+.overlay-info {
+    opacity: 0;
+    position: absolute;
+    
+    top: 0;
+    margin-left: 0;
+}
+.overlay-info .fas {
+    color:white;
+    width: 1rem;
+}
+.overlay-info .btn-secondary {
+    background: #00bcd4;
+    border: none;
+
+}
+.product-info-top:hover .overlay-info{
+    opacity: 1;
+}
+.product-info-bottom h4 {
+    font-size: 0.8rem;
+
+}
+.product-info-bottom h5 {
+    font-size: 0.8rem;
+
+}
+.owl-carousel .item{
+    margin: 0.7rem;
+  }
+.owl-carousel .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
